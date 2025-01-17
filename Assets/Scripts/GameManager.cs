@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject needle;
     public float vehicleSpeed;
 
-    private float _startPosition = 236.0f, _endPosition = -33.0f, _desiredPosition, _temp;
+    private float _startPosition = -34.0f, _endPosition = -305.0f, _desiredPosition, _temp;
     private CarMovement _speed;
 
     private void Start()
